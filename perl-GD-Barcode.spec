@@ -4,11 +4,11 @@
 #
 Name     : perl-GD-Barcode
 Version  : 1.15
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/K/KW/KWITKNR/GD-Barcode-1.15.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/K/KW/KWITKNR/GD-Barcode-1.15.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libg/libgd-barcode-perl/libgd-barcode-perl_1.15-7.debian.tar.xz
-Summary  : No detailed summary available
+Summary  : Create barcode image with GD
 Group    : Development/Tools
 License  : Artistic-1.0 GPL-1.0
 Requires: perl-GD-Barcode-license = %{version}-%{release}
@@ -24,6 +24,7 @@ GD::Barcode is a subclass of GD and allows you to create barcode image with GD.
 Summary: dev components for the perl-GD-Barcode package.
 Group: Development
 Provides: perl-GD-Barcode-devel = %{version}-%{release}
+Requires: perl-GD-Barcode = %{version}-%{release}
 
 %description dev
 dev components for the perl-GD-Barcode package.
@@ -42,7 +43,7 @@ license components for the perl-GD-Barcode package.
 cd ..
 %setup -q -T -D -n GD-Barcode-1.15 -b 1
 mkdir -p deblicense/
-mv %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/GD-Barcode-1.15/deblicense/
+cp -r %{_topdir}/BUILD/debian/* %{_topdir}/BUILD/GD-Barcode-1.15/deblicense/
 
 %build
 export http_proxy=http://127.0.0.1:9/
