@@ -4,7 +4,7 @@
 #
 Name     : perl-GD-Barcode
 Version  : 1.15
-Release  : 18
+Release  : 19
 URL      : https://cpan.metacpan.org/authors/id/K/KW/KWITKNR/GD-Barcode-1.15.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/K/KW/KWITKNR/GD-Barcode-1.15.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libg/libgd-barcode-perl/libgd-barcode-perl_1.15-7.debian.tar.xz
