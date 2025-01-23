@@ -5,7 +5,7 @@
 #
 Name     : perl-GD-Barcode
 Version  : 2.00
-Release  : 30
+Release  : 31
 URL      : https://cpan.metacpan.org/authors/id/M/MI/MICHIELB/GD-Barcode-2.00.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MI/MICHIELB/GD-Barcode-2.00.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libg/libgd-barcode-perl/libgd-barcode-perl_1.15-7.debian.tar.xz
